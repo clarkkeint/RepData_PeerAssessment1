@@ -114,7 +114,6 @@ median(Totalnumber_new)
 We can see that these values are different from the first part of the assignment. Both mean and median augment.
 
 ## Are there differences in activity patterns between weekdays and weekends?
-Change format
 
 ```r
 # Use the dataset with the filled-in missing values and Translate date into the classes "POSIXlt"
