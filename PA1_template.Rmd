@@ -112,6 +112,5 @@ data_final$MinInterval <- as.numeric(as.character((data_final$Min5Interval)))
 #Use lattice system to creat a panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
 library(lattice)
 xyplot(data_final$AveDailyActivity ~ data_final$MinInterval | data_final$week, layout = c(1,2) ,type = "l",xlab ="5-minute interval",ylab="The average number of steps taken across all days")
-
 ```
 
